@@ -70,7 +70,7 @@
                             <div class="collapse navbar-collapse" id="nav-open-btn">
                                 <ul class="nav">
                                     <li class="active"> <a href="<?php echo site_url("/"); ?>"  >HOME </a>  </li>
-                                    <li> <a href="" >ABOUT</a>
+                                    <li> <a href="<?php echo site_url("about-us"); ?>" >ABOUT</a>
                                     <li class="dropdown megamenu"> <a href="" class="dropdown-toggle" data-toggle="dropdown">SERVICES </a>
                                         <div class="dropdown-menu">
                                             <div class="mega-inside">
@@ -146,7 +146,7 @@
                                             </div>
                                         </div>
                                     </li>
-                                    <li> <a href="<?php echo site_url("/"); ?>"  >CONTACT US </a>  </li>
+                                    <li> <a href="<?php echo site_url("contact-us"); ?>"  >CONTACT US </a>  </li>
 
                                 </ul>
                             </div>

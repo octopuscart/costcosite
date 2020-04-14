@@ -1,69 +1,88 @@
 <?php
 $this->load->view('layout/header');
 ?>
+<!-- Slider -->
+<section class="sub-bnr" data-stellar-background-ratio="0.5">
+    <div class="position-center-center">
+        <div class="container">
+            <h4>About us</h4>
 
-
-<!-- Inner Page Banner Area Start Here -->
-<div class="inner-page-banner-area" style="    background: url(<?php echo base_url(); ?>assets/images/shop2.jpg);
-     background-size: cover;
-     background-position: 459px -1031px;">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="breadcrumb-area">
-                    <h1>About Us</h1>
-                    <ul>
-                        <li><a href="#">Home</a> /</li>
-                        <li>About Us</li>
-                    </ul>
-                </div>
-            </div>
+            <!-- Breadcrumb -->
+            <ol class="breadcrumb">
+                <li><a href="#">Home</a></li>
+                <li class="active">About</li>
+            </ol>
         </div>
     </div>
-</div>
-<!-- Inner Page Banner Area End Here -->
-<!-- Contact Us Page Area Start Here -->
-<!-- Single Blog Page Area Start Here -->
-<div class="single-blog-page-area" style="padding: 50px 0 30px;">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <div class="single-blog-details-content">
-                    
+</section>
 
-                    <p>
-                        Maharaja Mart Ltd formerly known as Maharaja's Indian Emporium. was established in 1999 at Kowloon, Hong Kong to serve the South Asians Ethnic necessities such as grocery, sweets, savories, fresh vegetables and fruits, pooja items, traditional utensils, grinders, mixers, handicrafts and much more. Having the former name Maharaja’s Indian Emporium, Maharaja Mart is the first one to introduce many new items exclusively for South Indian population.                    </p>
+<!-- Content -->
+<div id="content"> 
 
-                    <p>
-                        Our home delivery service is very popular and cater to all territories in and around Hong Kong. Home delivery service is provided free of charge for orders over HK$300.                    </p>
+    <!-- About Sec -->
+    <section class="about-ser pad-t-b-130">
+        <div class="container"> 
 
-                    <p>
-                        We are the ONLY Ethnic Grocery Store to accept payments by VISA / MASTER / AMEX credit cards. We also accept Bank Transfers. Payment can also be settled at the store by cash, cheque or EPS. 
-
-                </div>
-
-
+            <!-- Heading -->
+           <div class="heading-block margin-bottom-20">
+                <h4>- Costco International integration with Costco International Connections - </h4>
+                <h2>MULTI SOLUTION COMPANY</h2>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-               <img class="img-responsive" src="<?php echo base_url() . 'assets/images/hkogo.jpg'; ?>" alt="logo" style="  margin: 0px auto 34px;
+            <div class="intro-small col-md-10 center-auto">
+<div class="entry-content">
+                    <p>Costco International means “Long Term Immortal Relationships”. It also defines a mathematical equation for algebraic parenthesis which denotes the technical excellence and the domain strength of our team.<br>
+                        The greatest strength of a company profile preparation is that it makes an emotional as well as a logical connection with our customers by communicating with them in a way that leads them to value and trust our brand. The result: loyal customers, great enhancement of each customer’s lifetime value and our long-term profitable core relationship.<br>
+                        We are an IT Products and Services company wherein all our business and technology decisions are driven by a long term view of our customers’ needs. Designed using open technologies, our products bring down the “Total Cost of Ownership” significantly. Our services focus on bringing predictability to outcomes in terms of business process improvements and timely project deliveries. With a strong focus on Retail, Consumer Goods and Logistics industries, we are creating strategic long term relationships with our customers, making a difference to them through our offices in over 15 countries across US, Europe and Asia.</p>
+                    <p>Costco International is an independent consulting and software development company that specializes in the systems analysis, design and implementation of technical software. Costco International has been established to service the needs of clients who need complex analytical expertise or software developed that requires detailed technical expertise, typically for optimization, scheduling and the analysis and visualization of data applications.<br>
+                        </p>
+                </div><!-- .entry-content -->            </div>
+            <div class="row"> 
 
-                        ">
+             
+
+                
             </div>
         </div>
-        
-    </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services serv-info">
+        <ul class="row no-margin">
+            <!-- Digital Art -->
+            <li class="col-md-4">
+                <div class="ser-inn">
+                    <h4>Our Philosopgy</h4>
+                    <p>We provides a broad, deep spectrum of technology<br/> services to help organizations translate their strategic business agendas into IT initiatives and solutions <br/>that measurably improve performance.</p>
+                    <a href="#." class="btn btn-dark btn-small">DISCOVER</a> </div>
+            </li>
+
+            <!-- Backend Solutions -->
+            <li class="col-md-4">
+                <div class="ser-inn">
+                    <h4>Our Value</h4>
+                    <p>The greatest strength of a company profile preparation is that it makes an emotional as well as a logical connection with our customers by communicating with them in a way that leads them to value and trust our brand.</p>
+                    <a href="#." class="btn btn-dark btn-small">DISCOVER</a> </div>
+            </li>
+
+            <!-- Industrial design -->
+            <li class="col-md-4">
+                <div class="ser-inn">
+                    <h4>Our Business</h4>
+                    <p>Costco International means “Long Term Immortal Relationships”. It also defines a mathematical equation for algebraic parenthesis which denotes the technical excellence and the domain strength of our team.</p>
+                               <a href="#." class="btn btn-dark btn-small">DISCOVER</a> </div>
+
+                        </li>
+
+           
+        </ul>
+    </section>
+
+
+
+
+
+
 </div>
-<!-- Single Blog Page Area End Here -->
-<!-- Contact Us Page Area End Here -->
-
-
-
-
-
-
-<!--angular controllers-->
-<script src="<?php echo base_url(); ?>assets/theme/angular/productController.js"></script>
-
 
 <?php
 $this->load->view('layout/footer');

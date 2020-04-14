@@ -52,7 +52,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  */
 $route['default_controller'] = 'Shop';
 $route['404_override'] = 'Shop/error404';
-$route['contact'] = 'Shop/contactus';
+$route['contact-us'] = 'Shop/contactus';
 $route['about-us'] = 'Shop/aboutus';
 $route['privacy-policy'] = 'Shop/privacy_policy';
 
