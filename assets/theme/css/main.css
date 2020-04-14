@@ -62,12 +62,12 @@
   top: -20px;
   left: 10px;
   width: 40px;
-  background: #d30603;
+  background: #f2b632;
 }
 .loader:after {
   bottom: -20px;
   width: 35px;
-  background: #d30603;
+  background: #f2b632;
 }
 
 @-webkit-keyframes load {
@@ -979,7 +979,7 @@ header .ownmenu .nav ul.dropdown-menu .indicator {
 	margin: 0;
 }
 .flex-control-thumbs img {
-	/*width: 100%;*/
+	width: 100%;
 	height: auto;
 	display: block;
 	opacity: .7;
@@ -2838,12 +2838,6 @@ img.mfp-img {
 	padding-top: 130px !important;
 	padding-bottom: 130px !important;
 }
-
-.pad-t-b-60 {
-	padding-top: 60px !important;
-	padding-bottom: 60px !important;
-}
-
 .margin-0 {
 	margin: 0px !important;
 }
@@ -6938,7 +6932,7 @@ Main components
 	-o-transform: translateX(-280px);
 	transform: translateX(-280px);
 }
-
+}
 
 @media only screen and (min-width: 768px) {
 .cd-main-content {

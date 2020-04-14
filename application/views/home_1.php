@@ -1,362 +1,442 @@
-<?php
-$this->load->view('layout/header');
-?>
-<style>
-    .product_image_back {
-        background-size: contain!important;
-        background-repeat: no-repeat!important;
-        height: 300px!important;
-        background-position-x: center!important;
-        background-position-y: center!important;
-    }
 
-    .productblock{
-        padding: 10px;
-        border: 1px solid rgb(255, 214, 88);
-        margin-bottom: 30px;
-    }
-</style>
-<!-- Slider -->
-<section class="home-slider">
-    <div class="tp-banner-container">
-        <div class="tp-banner">
-            <ul>
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Costco International Limited &#8211; A Official Site Of Costco International Limited</title><meta name="keywords" content="free delivery, hong kong grocery, indian grocery, online order indian food, indian food, supermarket, departmental store, Maharaja's, Indian, Emporium, Grocery, Hong Kong, mango, sweets, mixer, hari oil, diwali, rice, flour, spices, dhal, dal, lentils, oilGrocery, Fruits, vegetables, sweets, beauty, handicrafts, music, south indian spices, south indian speciality items"/> <link rel="shortcut icon" href="http://192.168.1.3/costcointernationalsite/assets/images/logo.png"/><link rel="apple-touch-icon image_src" href="http://192.168.1.3/costcointernationalsite/assets/images/logo.png"/><meta name="description" content="Welcome to our online store Maharaja Mart - Indian grocery store in Hong Kong, with wide varities of South Indian Items. " /><meta name="robots" content="index,follow"/><meta property="og:title" content="Costco International Limited &#8211; A Official Site Of Costco International Limited"/><meta property="og:type" content="Welcome to our online store Maharaja Mart - Indian grocery store in Hong Kong, with wide varities of South Indian Items. "/><meta property="og:image" content="http://192.168.1.3/costcointernationalsite/assets/images/logo.png"/><meta property="og:url" content="http://192.168.1.3/costcointernationalsite/"/><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Costco International Limited &#8211; A Official Site Of Costco International Limited"/><meta name="twitter:url" content="http://192.168.1.3/costcointernationalsite/"/><meta name="twitter:description" content="Welcome to our online store Maharaja Mart - Indian grocery store in Hong Kong, with wide varities of South Indian Items. "/><meta name="twitter:image" content="http://192.168.1.3/costcointernationalsite/assets/images/logo.png"/>        <!-- Favicon -->
+        <link rel="shortcut icon" href="http://192.168.1.3/costcointernationalsite/assets/images/logof.png" type="image/x-icon">
+        <link rel="icon" href="http://192.168.1.3/costcointernationalsite/assets/images/logof.png" type="image/x-icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-                <!-- Slider 1 -->
-                <li data-transition="random" data-slotamount="7"> <img src="<?php echo base_url(); ?>assets/theme/images/shop-slider-bg-1.jpg" data-bgposition="center top" alt="" /> 
+    
 
-                    <!-- Layer -->
-                    <div class="tp-caption sft font-montserrat tp-resizeme rs-parallaxlevel-4" 
-                         data-x="center" 
-                         data-hoffset="0" 
-                         data-y="center" 
-                         data-voffset="-150" 
-                         data-speed="700" 
-                         data-start="1000" 
-                         data-easing="easeOutBack"
-                         data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" 
-                         data-splitin="none" 
-                         data-splitout="none" 
-                         data-elementdelay="0.1" 
-                         data-endelementdelay="0.1" 
-                         data-endspeed="300" 
-                         data-captionhidden="on"
-                         style="color: #252839; font-size: 36px; font-weight:900; text-transform: uppercase;"> Winter Collection </div>
+     
+        <style type="text/css">
+            img.wp-smiley,
+            img.emoji {
+                display: inline !important;
+                border: none !important;
+                box-shadow: none !important;
+                height: 1em !important;
+                width: 1em !important;
+                margin: 0 .07em !important;
+                vertical-align: -0.1em !important;
+                background: none !important;
+                padding: 0 !important;
+            }
+        </style>
+        <link rel='stylesheet' id='contact-form-7-css'  href='http://192.168.1.3/costcointernationalsite/assets/theme/css/styles.css' type='text/css' media='all' />
+        <link rel='stylesheet' id='accesspress-root-google-fonts-css-css'  href='//fonts.googleapis.com/css?family=Oswald%3A400%2C300%2C700%7COpen+Sans%3A400%2C300%2C300italic%2C400italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic&#038;ver=4.8.5' type='text/css' media='all' />
+        <link rel='stylesheet' id='accesspress-root-step3-css-css'  href='http://192.168.1.3/costcointernationalsite/assets/theme/css/off-canvas-menu.css' type='text/css' media='all' />
+        <link rel='stylesheet' id='accesspress-root-font-awesome-css-css'  href='http://192.168.1.3/costcointernationalsite/assets/theme/css/font-awesome.min.css' type='text/css' media='all' />
+        <link rel='stylesheet' id='accesspress-root-bx-slider-css-css'  href='http://192.168.1.3/costcointernationalsite/assets/theme/css/jquery.bxslider.css' type='text/css' media='all' />
+        <link rel='stylesheet' id='accesspress-root-nivo-lightbox-css-css'  href='http://192.168.1.3/costcointernationalsite/assets/theme/css/nivo-lightbox.css' type='text/css' media='all' />
+        <link rel='stylesheet' id='accesspress-root-style-css'  href='http://192.168.1.3/costcointernationalsite/assets/theme/style.css' type='text/css' media='all' />
+        <link rel='stylesheet' id='accesspress-root-responsive-css'  href='http://192.168.1.3/costcointernationalsite/assets/theme/css/responsive.css' type='text/css' media='all' />
 
-                    <!-- Layer -->
-                    <div class="tp-caption customin font-playfair tp-resizeme rs-parallaxlevel-4" 
-                         data-x="center" data-hoffset="0" 
-                         data-y="center" data-voffset="-50" 
-                         data-speed="720" 
-                         data-start="1200" 
-                         data-easing="easeOutBack"
-                         data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" 
-                         data-splitin="none" 
-                         data-splitout="none" 
-                         data-elementdelay="0.1" 
-                         data-endelementdelay="0.1" 
-                         data-endspeed="300" 
-                         data-captionhidden="on" 
-                         style="color: #252839; text-transform: uppercase; font-weight:900; font-size: 130px;"> UP to 70% </div>
+        <!-- This site uses the Google Analytics by MonsterInsights plugin v 6.2.0 - https://www.monsterinsights.com/ -->
+        <!-- Normally you will find the Google Analytics tracking code here, but the webmaster disabled your user group. -->
+        <!-- / Google Analytics by MonsterInsights -->
 
-                    <!-- Layer -->
-                    <div class="tp-caption sfb  font-playfair text-center tp-resizeme rs-parallaxlevel-4" 
-                         data-x="center" data-hoffset="0" 
-                         data-y="center" data-voffset="50"
-                         data-speed="1500" 
-                         data-start="1400" 
-                         data-easing="easeOutBack"
-                         data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" 
-                         data-splitin="none" 
-                         data-splitout="none" 
-                         data-elementdelay="0.1" 
-                         data-endelementdelay="0.1" 
-                         data-endspeed="300" 
-                         data-captionhidden="on" 
-                         style="color: #000; font-size: 16px; text-transform: uppercase; font-weight:600;"> BY DONIA R., DUTCH BLOGGER FROM LONDON, UNITED KINGDOM </div>
+        <script type='text/javascript' src='http://192.168.1.3/costcointernationalsite/assets/theme/js/jquery.js'></script>
+        <script type='text/javascript' src='http://192.168.1.3/costcointernationalsite/assets/theme/js/jquery-migrate.min.js'></script>
+        <script type='text/javascript' src='http://192.168.1.3/costcointernationalsite/assets/theme/js/modernizr.min.js'></script>
+		
+        <script src="theme/js/angular.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
 
-                    <!-- Layer -->
-                    <div class="tp-caption sfb tp-resizeme rs-parallaxlevel-4" 
-                         data-x="center" data-hoffset="0" 
-                         data-y="center" data-voffset="150"
-                         data-speed="700" 
-                         data-start="2000" 
-                         data-easing="easeOutBack"
-                         data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" 
-                         data-splitin="none" 
-                         data-splitout="none" 
-                         data-elementdelay="0.1" 
-                         data-endelementdelay="0.1" 
-                         data-endspeed="300" 
-                         data-captionhidden="on"> <a href="#." class="btn">Shop Now</a> &nbsp; &nbsp; &nbsp; &nbsp; <a href="#" class="btn btn-1">Discover</a> </div>
-                </li>
+        <link rel="canonical" href="https://costcointernational.com/" />
+        <link rel='shortlink' href='https://costcointernational.com/' />
 
-                <!-- Slider 2 -->
-                <li data-transition="random" data-slotamount="7"> 
-                    <img src="<?php echo base_url(); ?>assets/theme/images/shop-slider-bg-2.jpg" data-bgposition="center center" alt="" />
-                    <div class="overlay"></div>
+        <link rel="icon" type="image/png" href="http://192.168.1.3/costcointernationalsite/assets/images/favicon.png"> 
+        <style>html body, html body.boxed{}</style>
+        <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+        <link rel="icon" href="http://192.168.1.3/costcointernationalsite/assets/images/favicon.png" sizes="32x32" />
+        <link rel="icon" href="http://192.168.1.3/costcointernationalsite/assets/images/favicon.png" sizes="192x192" />
+        <link rel="apple-touch-icon-precomposed" href="http://192.168.1.3/costcointernationalsite/assets/images/favicon.png" />
+        <meta name="msapplication-TileImage" content="http://192.168.1.3/costcointernationalsite/assets/images/favicon.png" />
+        <script src="http://192.168.1.3/costcointernationalsite/assets/theme/angular/angular.min.js"></script>
 
-                    <!-- Layer -->
-                    <div class="tp-caption sft font-montserrat  tp-resizeme rs-parallaxlevel-4" 
-                         data-x="center" data-hoffset="0" 
-                         data-y="center" data-voffset="-90" 
-                         data-speed="700" 
-                         data-start="1000" 
-                         data-easing="easeOutBack"
-                         data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" 
-                         data-splitin="none" 
-                         data-splitout="none" 
-                         data-elementdelay="0.1" 
-                         data-endelementdelay="0.1" 
-                         data-endspeed="300" 
-                         data-captionhidden="on"
-                         style="color: #fff; font-size: 120px; text-transform: uppercase; font-weight: 900;"> HUGE SALE </div>
+    </head>
 
-                    <!-- Layer -->
-                    <div class="tp-caption sft tp-resizeme font-montserrat rs-parallaxlevel-4" 
-                         data-x="center" data-hoffset="0" 
-                         data-y="center" data-voffset="0" 
-                         data-speed="700" 
-                         data-start="1700" 
-                         data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" 
-                         data-easing="Back.easeOut" 
-                         data-splitin="none" 
-                         data-splitout="none" 
-                         data-elementdelay="0.1" 
-                         data-endelementdelay="0.1" 
-                         data-endspeed="300" 
-                         data-captionhidden="on"
-                         style="color: #fff; font-size: 18px; text-transform: uppercase; font-weight: bold;  letter-spacing:3px;"> ASOS T-shirt With Stripe Sleeve </div>
+    <body class="home page-template page-template-page-home page-template-page-home-php page page-id-5 full-width" ng-app="App" >
+       <div  ng-controller="ShopController" id="ShopController">
+           <script>
 
-                    <!-- Layer -->
-                    <div class="tp-caption sft tp-resizeme rs-parallaxlevel-4" 
-                         data-x="center" data-hoffset="0" 
-                         data-y="center" data-voffset="100" 
-                         data-speed="700" 
-                         data-start="2400"
-                         data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" 
-                         data-easing="Back.easeOut" 
-                         data-splitin="none" 
-                         data-splitout="none" 
-                         data-elementdelay="0.1" 
-                         data-endelementdelay="0.1" 
-                         data-endspeed="300" 
-                         data-captionhidden="on"> <a href="#." class="btn btn-1">SHOPPING NOW</a> </div>
-                </li>
 
-                <!-- Slider 3 -->
-                <li data-transition="random" data-slotamount="7"> 
-                    <img src="<?php echo base_url(); ?>assets/theme/images/shop-slider-bg-3.jpg" data-bgposition="center center" alt="" /> 
-                    <!-- Layer -->
-                    <div class="tp-caption font-montserrat customin tp-resizeme rs-parallaxlevel-4" 
-                         data-x="center" 
-                         data-hoffset="0" 
-                         data-y="center" 
-                         data-voffset="-100"
-                         data-speed="700" 
-                         data-start="1000" 
-                         data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" 
-                         data-easing="Back.easeOut" 
-                         data-splitin="none" 
-                         data-splitout="none" 
-                         data-elementdelay="0.1" 
-                         data-endelementdelay="0.1" 
-                         data-endspeed="300" 
-                         data-captionhidden="on"
-                         style="color: #fff; font-size: 60px; text-transform: uppercase; font-weight: 900; letter-spacing:3px;"> NEW ARRIVAL </div>
+                        var App = angular.module('App', []).config(function ($interpolateProvider, $httpProvider) {
+                            //$interpolateProvider.startSymbol('{$');
+                            //$interpolateProvider.endSymbol('$}');
+                            $httpProvider.defaults.headers.common = {};
+                            $httpProvider.defaults.headers.post = {};
+                        });
+                        var baseurl = "http://192.168.1.3/costcointernationalsite/index.php/";
+                        var imageurlg = "https://admin.maharajamart.com//assets/product_images/";
+                        var globlecurrency = "HK$ ";
+                        var avaiblecredits = 0;</script>
+        <div id="outer-wrap">
+            <div id="inner-wrap"> 
+                <div id="page" class="site">
+                    <header id="masthead" class="site-header">
+                        <div class="ak-container">
+                            <div id="site-branding" class="clearfix">
+                                <a class="site-logo" href="https://costcointernational.com/">
+                                    <img src="http://192.168.1.3/costcointernationalsite/assets/images/logo70.png" alt="Costco International Limited"/> </a> 
 
-                    <!-- Layer -->
-                    <div class="tp-caption sfb tp-resizeme  font-playfair text-center rs-parallaxlevel-4" 
-                         data-x="center" 
-                         data-hoffset="0" 
-                         data-y="center" 
-                         data-voffset="-20"
-                         data-speed="700" 
-                         data-start="1700" 
-                         data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" 
-                         data-easing="Back.easeOut" 
-                         data-splitin="none" 
-                         data-splitout="none" 
-                         data-elementdelay="0.1" 
-                         data-endelementdelay="0.1" 
-                         data-endspeed="300" 
-                         data-captionhidden="on"
-                         style="color: #fff; font-size: 18px; line-height:36px; font-weight: 500; letter-spacing:0px;"> Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava<br>
-                        bean collard greens danadelion. </div>
+                            </div><!-- .site-branding -->
 
-                    <!-- Layer -->
-                    <div class="tp-caption sfb tp-resizeme rs-parallaxlevel-4" 
-                         data-x="center" 
-                         data-hoffset="0" 
-                         data-y="center"
-                         data-voffset="100"
-                         data-speed="700" 
-                         data-start="2400"
-                         data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" 
-                         data-easing="Back.easeOut" 
-                         data-splitin="none" 
-                         data-splitout="none" 
-                         data-elementdelay="0.1" 
-                         data-endelementdelay="0.1" 
-                         data-endspeed="300" 
-                         data-captionhidden="on"
-                         style="z-index: 10;"> <a href="#." class="btn">Shop Now</a> &nbsp; &nbsp; &nbsp; &nbsp; <a href="#" class="btn btn-1">Discover</a> </div>
-                </li>
-            </ul>
+                            <div class="right-header">
+                                <nav id="site-navigation" class="main-navigation" role="navigation">
+                                    <a class="menu-toggle">Menu</a>
+                                    <ul id="menu-menu-1" class="menu"><li id="menu-item-50" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5 current_page_item menu-item-50"><a href="https://costcointernational.com/">Home</a></li>
+                                        <li id="menu-item-87" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87"><a href="https://costcointernational.com/about-us/">About Us</a></li>
+                                        <li id="menu-item-99" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-99"><a href="https://costcointernational.com/services/">Services</a>
+                                            <ul  class="sub-menu">
+                                                <li id="menu-item-98" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98"><a href="https://costcointernational.com/application-development/">Application Development</a></li>
+                                                <li id="menu-item-97" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97"><a href="https://costcointernational.com/business-consulting-services/">Business Consulting services</a></li>
+                                                <li id="menu-item-106" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-106"><a href="https://costcointernational.com/integrated-communications-services/">Integrated communications services</a></li>
+                                                <li id="menu-item-105" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-105"><a href="https://costcointernational.com/maintenance-and-technical-support/">Maintenance and Technical Support</a></li>
+                                                <li id="menu-item-123" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-123"><a href="https://costcointernational.com/systems-analysis-design-implementation/">Systems analysis, design &#038; implementation</a></li>
+                                                <li id="menu-item-122" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-122"><a href="https://costcointernational.com/technical-software-development/">Technical software development</a></li>
+                                                <li id="menu-item-121" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121"><a href="https://costcointernational.com/visualization-of-complex-data/">Visualization of complex data</a></li>
+                                            </ul>
+                                        </li>
+                                        <li id="menu-item-49" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49"><a href="https://costcointernational.com/contact-us/">Contact Us</a></li>
+                                    </ul>				</nav><!-- #site-navigation -->
+
+                                <div class="search-icon">
+                                    <a href="javascript:void(0)"><i class="fa fa-search"></i></a>
+
+                                    <div class="search-box">
+                                        <div class="close"> &times; </div>
+                                        <form method="get" class="searchform" action="https://costcointernational.com/" role="search">
+                                            <input type="text" name="s" value="" class="search-field" placeholder="Type something and hit Enter to begin your search..." />
+                                            <button type="submit" name="submit" class="searchsubmit"><i class="fa fa-search"></i></button> 
+                                        </form>
+                                    </div>
+                                </div> <!--  search-icon-->
+                            </div> <!-- right-header -->
+                            <div id="top" class="hide"> 
+                                <div class="block">
+                                    <a href="#nav" id="nav-open-btn" class="nav-btn">
+                                        <span class="nav-row"> </span>
+                                        <span class="nav-row"> </span>
+                                        <span class="nav-row"> </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </header><!-- #masthead -->
+
+                    <nav id="nav" role="navigation" class="hide"> 
+                        <div class="block">
+                            <ul id="menu-menu-2" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5 current_page_item menu-item-50"><a href="https://costcointernational.com/">Home</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87"><a href="https://costcointernational.com/about-us/">About Us</a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-99"><a href="https://costcointernational.com/services/">Services</a>
+                                    <ul  class="sub-menu">
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98"><a href="https://costcointernational.com/application-development/">Application Development</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97"><a href="https://costcointernational.com/business-consulting-services/">Business Consulting services</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-106"><a href="https://costcointernational.com/integrated-communications-services/">Integrated communications services</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-105"><a href="https://costcointernational.com/maintenance-and-technical-support/">Maintenance and Technical Support</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-123"><a href="https://costcointernational.com/systems-analysis-design-implementation/">Systems analysis, design &#038; implementation</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-122"><a href="https://costcointernational.com/technical-software-development/">Technical software development</a></li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121"><a href="https://costcointernational.com/visualization-of-complex-data/">Visualization of complex data</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49"><a href="https://costcointernational.com/contact-us/">Contact Us</a></li>
+                            </ul>			<a href="#top" id="nav-close-btn" class="close-btn">&times;</a>
+                        </div>
+                    </nav><!-- #site-navigation -->
+
+                    <div id="content" class="site-content"  ng-controller="costcoCtrl"><section id="main-slider">
+
+    <div class="bx-slider">
+
+        <div class="slides">
+
+            <img src="http://192.168.1.3/costcointernationalsite/assets/uploads/2017/04/ban1.jpg" alt="Costco International Ltd.">
+
+            <div class="slider-caption">
+                <div class="ak-container">
+                    <div class="caption-content-wrapper">
+                        <h1 class="caption-title">Costco International Ltd.</h1>
+
+                        <div class="caption-content">Parent company of www.octopuscart.com</div>
+                    </div>
+
+                </div>
+            </div>
+
         </div>
+        <div class="slides">
+
+            <img src="http://192.168.1.3/costcointernationalsite/assets/uploads/2017/04/banner11.jpg" alt="Costco International Ltd.">
+
+            <div class="slider-caption">
+                <div class="ak-container">
+                    <div class="caption-content-wrapper">
+                        <h1 class="caption-title">Costco International Ltd.</h1>
+
+                        <div class="caption-content">Parent company of www.octopuscart.com</div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="slides">
+
+            <img src="http://192.168.1.3/costcointernationalsite/assets/uploads/2017/04/ban2.jpg" alt="Costco International Ltd.">
+
+            <div class="slider-caption">
+                <div class="ak-container">
+                    <div class="caption-content-wrapper">
+                        <h1 class="caption-title">Costco International Ltd.</h1>
+
+                        <div class="caption-content">Parent company of www.octopuscart.com</div>
+                    </div>
+
+                    <a class="caption-read-more" href="http://">Read More</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="slides">
+
+            <img src="http://192.168.1.3/costcointernationalsite/assets/uploads/2017/04/banner6.jpg" alt="Costco International Ltd.">
+
+            <div class="slider-caption">
+                <div class="ak-container">
+                    <div class="caption-content-wrapper">
+                        <h1 class="caption-title">Costco International Ltd.</h1>
+
+                        <div class="caption-content">Parent company of www.octopuscart.com</div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
     </div>
 </section>
 
-<!-- Content -->
-<div id="content" class="home-shop"> 
-
-    <!-- About Sec -->
-    <section class="acces-ser pad-t-b-130 padding-bottom-100">
-        <div class="container"> 
-
-            <!-- Heading -->
-            <div class="heading-block margin-bottom-30">
-                <h3>Top Categories Items</h3>
-                <hr>
+<section id="message-slider" class="message-slides clearfix">
+    <div class="ak-container">
+        <div class="text-slider">
+            <div class="slides">
+                <h1 class="message-title">
+                    Costco International integration with Costco International Connections							</h1>
+                <div class="message-content">
+                    <p class="”caption-title”">Utilizes social and collaborative tools to help create high-value content managed and stored in Costco International&#8217;s repositories such as FileNet Content Manager or Content Manager Enterprise Edition</p>
+                </div>
             </div>
-            <div class="intro-small col-md-8 center-auto">
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout..</p>
+            <div class="slides">
+                <h1 class="message-title">
+                    Increase business and IT agility by continuously improving core business processes							</h1>
+                <div class="message-content">
+                    <p>BPM solutions for your industry</p>
+                </div>
             </div>
-            <div class="row"> 
+        </div> <!-- bx-wrapper -->
+    </div>
+</section> <!-- message-slider end -->
+<section id="service-section" class="clearfix">
+    <div class="ak-container">
+        <div class="section-title-wrap">
+            <h1 class="main-title">Services</h1>
 
-                <?php
-                foreach ($categories as $key => $value) {
-                    ?>
-                    <!-- Bags -->
-                    <div class="col-sm-4">
-                        <article> 
-
-                            <img class="img-responsive" src="<?php echo base_url(); ?>assets/theme/images/access-img-1.jpg" alt="" >
-                            <div class="position-center-center">
-                                <h6><?php echo $value['category_name']; ?></h6>
-                            </div>
-                            <a href="<?php echo site_url("Product/ProductList/" . $value['id']); ?>" class="btn by">Shop NOW</a> 
-                        </article>
-                    </div>
-                    <?php
-                }
-                ?>
-
-            </div>
+            <div class="sub-desc">
+                Believing in Customer Satisfaction						</div>
         </div>
-    </section>
 
-    <!-- About US -->
-    <section class="light-gray-bg pad-t-b-130">
-        <div class="container"> 
-
-            <!-- Heading -->
-            <div class="heading-block margin-bottom-30">
-                <h3>Best Sellers</h3>
-                <hr>
+        <div class="service-block-wrap clearfix">
+            <div class="service-block">
+                <div class="service-image">
+                    <a href="https://costcointernational.com/application-development/" class="image-wrap"> 
+                        <img src="http://192.168.1.3/costcointernationalsite/assets/uploads/2017/04/service-img-4-380x252.jpg" alt="Application Development">
+                    </a>
+                    <div class="service-overlay">
+                        <a href="https://costcointernational.com/application-development/"> <i class="fa fa-external-link"></i> </a>
+                    </div>
+                </div>
+                <div class="service-content">
+                    <h1 class="service-title"><a href="https://costcointernational.com/application-development/">Application Development</a></h1>
+                    <div class="service-desc">We believe a combination of onsite, near shore and offshore development models provides a framework to drive continuous ...</div>
+                </div>
             </div>
-            <div class="intro-small col-md-8 center-auto">
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout..</p>
+            <div class="service-block">
+                <div class="service-image">
+                    <a href="https://costcointernational.com/technical-software-development/" class="image-wrap"> 
+                        <img src="http://192.168.1.3/costcointernationalsite/assets/uploads/2017/04/service-img-1-380x252.jpg" alt="Technical software development">
+                    </a>
+                    <div class="service-overlay">
+                        <a href="https://costcointernational.com/technical-software-development/"> <i class="fa fa-external-link"></i> </a>
+                    </div>
+                </div>
+                <div class="service-content">
+                    <h1 class="service-title"><a href="https://costcointernational.com/technical-software-development/">Technical software development</a></h1>
+                    <div class="service-desc">Need software developed and you don't have the in-house time, expertise, space and/or the equipment ? Costco  Internatio</div>
+                </div>
             </div>
+            <div class="service-block">
+                <div class="service-image">
+                    <a href="https://costcointernational.com/maintenance-and-technical-support/" class="image-wrap"> 
+                        <img src="http://192.168.1.3/costcointernationalsite/assets/uploads/2017/04/service-img-3-380x252.jpg" alt="Maintenance and Technical Support">
+                    </a>
+                    <div class="service-overlay">
+                        <a href="https://costcointernational.com/maintenance-and-technical-support/"> <i class="fa fa-external-link"></i> </a>
+                    </div>
+                </div>
+                <div class="service-content">
+                    <h1 class="service-title"><a href="https://costcointernational.com/maintenance-and-technical-support/">Maintenance and Technical Support</a></h1>
+                    <div class="service-desc">Maintenance and technical support services provide single-source tech support designed to help keep  multivendor environ...</div>
+                </div>
+            </div>
+            <div class="service-block">
+                <div class="service-image">
+                    <a href="https://costcointernational.com/systems-analysis-design-implementation/" class="image-wrap"> 
+                        <img src="http://192.168.1.3/costcointernationalsite/assets/uploads/2017/05/service-img-2-380x252.jpg" alt="Systems analysis, design &#038; implementation">
+                    </a>
+                    <div class="service-overlay">
+                        <a href="https://costcointernational.com/systems-analysis-design-implementation/"> <i class="fa fa-external-link"></i> </a>
+                    </div>
+                </div>
+                <div class="service-content">
+                    <h1 class="service-title"><a href="https://costcointernational.com/systems-analysis-design-implementation/">Systems analysis, design &#038; implementation</a></h1>
+                    <div class="service-desc">Costco International has considerable experience in UML based systems analysis, the design and of object oriented system...</div>
+                </div>
+            </div>
+        </div> <!-- service-block-wrap end -->
+    </div>
+</section> <!--service section end -->	
+<section id="cta-banner" class="clearfix">
+    <div class="ak-container">
+        <div class="cta-banner-text full-width">
+            <h1 class="cta-banner-title color-bold">Costco International Ltd.</h1>
+            <div class="cta-banner-desc">Costco International means “Long Term Immortal Relationships”. It also defines a mathematical equation for algebraic parenthesis which denotes the technical excellence and the domain strength of our team.</div>
+        </div>
 
-            <!-- Images Sec -->
-            <div class="img-sec">
-                <div class="shop-content">
-                    <div id="new-arrival-slide"> 
-
-                        <?php
-                        foreach ($product_home_slider_bottom['home_slider'] as $key => $value) {
-                            ?>
-
-                            <!-- Item -->
-                            <div class="item">
-                                <article class="shop-artical"> 
-                                    <div class="product_image_back" style="background: url(<?php echo imageserver . $value['file_name']; ?>)"></div>
+    </div>
+</section> <!-- cta-simple -->
+<section id="features" class="clearfix">
+    <div class="ak-container">
+        <div class="section-title-wrap">
+            <h1 class="main-title">Technologies</h1>
+            <div class="sub-desc">
+                Octopus provides a broad, deep spectrum of technology services to help organizations translate their strategic business agendas into IT initiatives and solutions that measurably improve performance						</div>
+        </div>
 
 
-                                    <div class="item-hover">
-                                        <a href="#." class="btn" ng-click="addToCart(<?php echo $value['id']; ?>, 1)">add to cart</a> 
-                                        <a href="#." class="btn by">BUY NOW</a> 
-                                    </div>
-                                </article>
-                                <div class="info"> <a href="#."><?php echo $value['title']; ?> </a> <span class="price">{{<?php echo $value['price']; ?>|currency:" Rs. "}}</span> </div>
-                            </div>
-                            <?php
-                        }
-                        ?>
+        <div class="feature-block-wrapper">
+            <div class="feature-block-wrap clearfix">
 
+                <div class="feature-block">
+                    <a href="https://costcointernational.com/flexible-layout/" class="feature-icon">
+                        <img width="90" height="90" src="http://192.168.1.3/costcointernationalsite/assets/uploads/2017/04/icon3.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" />									</a>
+                    <div class="feature-content">
+                        <h1 class="feature-title"> <a href="https://costcointernational.com/flexible-layout/">Data Center Service</a> </h1>
+                        <div class="feature-desc">Organizations worldwide are stretching the capabilities of their data centers not only to ...</div>
+                        <a class="feature-read-more" href="https://costcointernational.com/flexible-layout/">Read More</a>
+                    </div>
+                </div>
+
+                <div class="feature-block">
+                    <a href="https://costcointernational.com/save-time-effort/" class="feature-icon">
+                        <img width="90" height="90" src="http://192.168.1.3/costcointernationalsite/assets/uploads/2017/04/icon4.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" />									</a>
+                    <div class="feature-content">
+                        <h1 class="feature-title"> <a href="https://costcointernational.com/save-time-effort/">Global Delivery</a> </h1>
+                        <div class="feature-desc">Costco's industrialized global delivery capabilities provide clients with the right people...</div>
+                        <a class="feature-read-more" href="https://costcointernational.com/save-time-effort/">Read More</a>
+                    </div>
+                </div>
+
+                <div class="feature-block">
+                    <a href="https://costcointernational.com/responsive-design/" class="feature-icon">
+                        <img width="90" height="90" src="http://192.168.1.3/costcointernationalsite/assets/uploads/2017/04/icon1.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" />									</a>
+                    <div class="feature-content">
+                        <h1 class="feature-title"> <a href="https://costcointernational.com/responsive-design/">Human Capital Management</a> </h1>
+                        <div class="feature-desc">Our services help global HR organizations increase operating efficiency and improve workfo...</div>
+                        <a class="feature-read-more" href="https://costcointernational.com/responsive-design/">Read More</a>
+                    </div>
+                </div>
+
+                <div class="feature-block">
+                    <a href="https://costcointernational.com/clean-and-smart-theme/" class="feature-icon">
+                        <img width="90" height="90" src="http://192.168.1.3/costcointernationalsite/assets/uploads/2017/04/icon2.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" />									</a>
+                    <div class="feature-content">
+                        <h1 class="feature-title"> <a href="https://costcointernational.com/clean-and-smart-theme/">Cloud Services</a> </h1>
+                        <div class="feature-desc">Using an IT resource no longer depends on having the capital to own that resource, thanks ...</div>
+                        <a class="feature-read-more" href="https://costcointernational.com/clean-and-smart-theme/">Read More</a>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </div> <!-- feature-block-wrap end -->
+    </div>
+</section> <!-- Features -->
 
-    <!-- Shop Content -->
-    <div class="shop-content pad-t-b-130">
-        <div class="container"> 
-
-            <!-- Heading -->
-            <div class="heading-block">
-                <h3>Latest products</h3>
-                <hr>
-            </div>
-            <div class="row"> 
-
-                <?php
-                foreach ($product_home_slider_bottom['home_bottom'] as $key => $value) {
-                    ?>
-                    <!-- Item -->
-                    <div class="col-sm-4">
-                        <article class="shop-artical"> 
-                            <div class="product_image_back" style="background: url(<?php echo imageserver . $value['file_name']; ?>)"></div>
-                            <div class="item-hover">
-                                <div class="up-side">
-                                    <hr class="dotted white">
-                                    <a href="#."><?php echo $value['title']; ?> </a> 
-                                    <span class="price">{{<?php echo $value['price']; ?>|currency:" Rs. "}}</span> 
-                                </div>
-                                <a href="#." class="btn" ng-click="addToCart(<?php echo $value['id']; ?>, 1)">add to cart</a> 
-                                <a href="#." class="btn by">BUY NOW</a> 
-                            </div>
-                        </article>
-                    </div>
-
-                    <?php
-                }
-                ?>
-
-
-            </div>
-        </div>
-
-        <!-- Load More -->
-        <div class="text-center margin-top-50"> <a href="#." class="btn">Check out more shop</a> </div>
+<section id="blog" class="clearfix">
+    <div class="ak-container">
     </div>
 
-    <!-- OUR SERVICES -->
-    <section class="client-sec">
-        <div class="container"> 
+</section> <!-- blog -->
 
-            <!-- Heading -->
-            <div class="heading-block margin-bottom-30">
-                <h3>our Best Brands</h3>
-                <hr>
+<section id="testimonial" class="clearfix">
+    <div class="ak-container">
+        <div class="section-title-wrap">
+
+        </div>
+
+
+    </div>
+</section> <!-- testimonial section -->
+
+
+
+
+
+</div><!-- #content -->
+
+<footer id="colophon">
+    <div id="top-footer" class="clearfix columns-0">
+        <div class="ak-container">
+            <div class="top-footer-wrap clearfix">
+
+
+
             </div>
-            <div class="intro-small col-md-8 center-auto">
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout..</p>
-            </div>
-            <ul class="nolist-style">
-                <li><img src="images/client-img-1.png" alt="" ></li>
-                <li><img src="images/client-img-2.png" alt="" ></li>
-                <li><img src="images/client-img-3.png" alt="" ></li>
-                <li><img src="images/client-img-4.png" alt="" ></li>
-                <li><img src="images/client-img-5.png" alt="" ></li>
+        </div>
+    </div> <!-- top footer end -->
+
+
+    <div id="bottom-footer" class="clearfix">
+        <div class="ak-container">
+            <div class="copyright">Copyright © 2020  <a title="AccessPress Themes" href="http://costcointernational.com">Costco International Ltd.</a>  </div>
+            <ul class="social-icon">
+
+
+
+
+
+
+
+
             </ul>
         </div>
-    </section>
-</div>
-<!-- End Content --> 
+    </div> <!-- bottom footer end -->
+</footer><!-- #colophon --> 
+</div><!-- #page -->
+</div> <!-- Inner wrap -->
+</div> <!-- Outer wrap -->
 
-<?php
-$this->load->view('layout/footer');
-?>
+
+<script type='text/javascript' src='http://192.168.1.3/costcointernationalsite/assets/theme/js/jquery.bxslider.min.js?ver=4.2.1'></script>
+<script type='text/javascript' src='http://192.168.1.3/costcointernationalsite/assets/theme/js/jquery.actual.min.js?ver=1.0.16'></script>
+<script type='text/javascript' src='http://192.168.1.3/costcointernationalsite/assets/theme/js/nivo-lightbox.min.js?ver=1.2.0'></script>
+<script type='text/javascript' src='http://192.168.1.3/costcointernationalsite/assets/theme/js/custom.js?ver=1.0'></script>
+<script type='text/javascript' src='http://192.168.1.3/costcointernationalsite/assets/theme/js/off-canvas-menu.js?ver=1.0.0'></script>
+<script src="http://192.168.1.3/costcointernationalsite/assets/theme/angular/shopController.js"></script>
+</div>
+</body>
+</html>

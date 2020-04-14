@@ -4,7 +4,7 @@ $this->load->view('layout/header');
 
 
 <div id="content"> 
-    <section class="page_title bg_gradiant image_fixed t_align_c relative wrapper" style="margin-top: 0px;">
+    <section class="page_title bg_gradiant image_fixed t_align_c relative wrapper" style="margin-top: 0px;text-align: center">
         <img src="images/page_404.jpg" alt="" class="page_404 d_xs_none">
         <h1 class="color_light fw_light m_bottom_12 text-center">Error 404 Page</h1>
         <!--breadcrumbs-->

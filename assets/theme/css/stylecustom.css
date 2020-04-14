@@ -1,0 +1,23 @@
+header .is-sticky .sticky .navbar li a {
+    padding: 26px 10px;
+}
+
+header .navbar li a {
+    font-size: 14px;
+    color: #000000;
+    font-weight: 600;
+    padding: 41px 10px;
+    letter-spacing: 0px;
+}
+
+.sub-bnr {
+    min-height: 80px;
+    background: #252839;
+    position: relative;
+    z-index: 1;
+}
+
+.pad-t-b-130 {
+    padding-top: 50px !important;
+    padding-bottom: 130px !important;
+}

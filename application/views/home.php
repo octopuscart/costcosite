@@ -1,246 +1,420 @@
 <?php
 $this->load->view('layout/header');
-?>
-<!-- Slider Area Start Here -->
-<!--<div class="main-slider2">
-    <div class="bend niceties preview-1">
-        <div id="ensign-nivoslider-3" class="slides">
-<?php
-foreach ($sliders as $key => $value) {
-    ?>
-                                                                                                                                                                                <img src="<?php echo imageserverslider . $value->file_name; ?>" alt="" title="#slider-direction-<?php echo $key; ?>" />
-    <?php
-}
-?>        
-        </div>
+?><!-- Slider -->
+<section class="home-slider">
+    <div class="tp-banner-container">
+        <div class="tp-banner">
+            <ul>
+                <!-- SLIDE  -->
+                <li data-transition="random" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" > 
+                    <!-- MAIN IMAGE --> 
+                    <img src="<?php echo base_url(); ?>assets/theme/images/slider-bg-1-1.jpg"  alt="slider"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"> 
+                    <!-- LAYERS --> 
 
+                    <!-- LAYER NR. 1 -->
+                    <div class="tp-caption sfl tp-resizeme"
+                         data-x="center" data-hoffset="0" 
+                         data-y="center" data-voffset="-90" 
+                         data-speed="500" 
+                         data-start="800" 
+                         data-easing="Power3.easeInOut" 
+                         data-splitin="chars" 
+                         data-splitout="none" 
+                         data-elementdelay="0.05" 
+                         data-endelementdelay="0.05" 
+                         data-endspeed="100"
+                         style="z-index: 5; font-weight:bold; font-size:56px; color:#000;">Welcome to Costco International Ltd.</div>
 
-<?php
-foreach ($sliders as $key => $value) {
-    ?>
-                                                                                                                                                                            <div id="slider-direction-<?php echo $key; ?>" class="t-cn slider-direction">
-                                                                                                                                                                                <div class="slider-content t-lfl s-tb slider-1">
-                                                                                                                                                                                    <div class="title-container s-tb-c">
-                                                                                                                                                                                        <h2 class="title<?php echo $key; ?>" style="color:<?php echo $value->title_color; ?>">
-    <?php echo $value->title; ?>
-                                                                                                                                                                                        </h2>
-                                                                                                                                                                                        <p style="color:<?php echo $value->line1_color; ?>"><?php echo $value->line1; ?></p>
-                                                                                                                                                                                        <p style="color:<?php echo $value->line2_color; ?>"><?php echo $value->line2; ?></p>
-                                                                                                                                                                                        <a href="<?php echo $value->link; ?>" class="btn-shop-now-fill-slider"><?php echo $value->link_text; ?></a>
-                                                                                                                                                                                    </div>
-                                                                                                                                                                                </div>
-                                                                                                                                                                            </div>
-    <?php
-}
-?>
+                    <!-- LAYER NR. 2 -->
+                    <div class="tp-caption sfr tp-resizeme" 
+                         data-x="center" data-hoffset="0" 
+                         data-y="center" data-voffset="-30" 
+                         data-speed="500" 
+                         data-start="1200" 
+                         data-easing="Power3.easeInOut" 
+                         data-splitin="chars" 
+                         data-splitout="none" 
+                         data-elementdelay="0.05" 
+                         data-endelementdelay="0.05" 
+                         data-endspeed="100" 
+                         style="z-index: 6; font-weight:bold; max-width: auto; font-size:25px; color:#000;">Being a top-notch Custom software development company </div>
 
-    </div>
-</div>-->
-<!-- Slider Area End Here -->
-<div ng-controller="HomeController">
+                    <!-- LAYER NR. 3 -->
+                    <div class="tp-caption font-crimson font-italic sfb tp-resizeme" 
+                         data-x="center" data-hoffset="0" 
+                         data-y="center" data-voffset="20" 
+                         data-speed="500" 
+                         data-start="1600" 
+                         data-easing="Power3.easeInOut" 
+                         data-splitin="none" 
+                         data-splitout="none" 
+                         data-elementdelay="0.1" 
+                         data-endelementdelay="0.1" 
+                         data-endspeed="300" 
+                         style="z-index: 7; font-size:18px; color:#000; max-width: auto; max-height: auto; white-space: nowrap;"></div>
 
-    <!-- Slider Area Start Here -->
-    <div class="main-slider2">
-        <div class="bend niceties preview-1">
-            <div id="ensign-nivoslider-3" class="slides">
-                <img src="<?php echo base_url(); ?>assets/sliders/home-banner-2.jpg" alt="" title="#slider-direction-1" />
-                <img src="<?php echo base_url(); ?>assets/sliders/home-banner-4.jpg" alt="" title="#slider-direction-4" />
-                <img src="<?php echo base_url(); ?>assets/sliders/home-banner-5.jpg" alt="" title="#slider-direction-5" />
-                <img src="<?php echo base_url(); ?>assets/sliders/cinema-ticket-banner.jpg" alt="" title="#slider-direction-2" />
-                <img src="<?php echo base_url(); ?>assets/sliders/home-banner-3.jpg" alt="" title="#slider-direction-3" />
-
-
-            </div>
-            <div id="slider-direction-1" class="t-cn slider-direction">
-                <div class="slider-content t-lfr s-tb slider-3">
-                    <div class="title-container s-tb-c">
-                        <h2 class="title1">SHOP ORGANIC PRODUCT
-                            <br/> Fruits,Oils, Ghee & Much More
-                        </h2>
-                        <a href="<?php echo site_url('Product/productList/1/19');?>" class="btn-shop-now-fill-slider">Shop Now</a>
+                    <!-- LAYER NR. 3 -->
+                    <div class="tp-caption sfb tp-resizeme" 
+                         data-x="center" data-hoffset="0" 
+                         data-y="center" data-voffset="100" 
+                         data-speed="500" 
+                         data-start="2000" 
+                         data-easing="Power3.easeInOut" 
+                         data-splitin="none" 
+                         data-splitout="none" 
+                         data-elementdelay="0.1" 
+                         data-endelementdelay="0.1" 
+                         data-endspeed="300" 
+                         style="z-index: 7; font-size:16px; color:#000; max-width: auto; max-height: auto; white-space: nowrap;">
+                        <!--<a href="#." class="btn">BUY NOW</a>-->
                     </div>
-                </div>
-            </div>
+                </li>
 
-            <div id="slider-direction-2" class="t-cn slider-direction">
-                <div class="slider-content t-lfr s-tb slider-3">
-                    <div class="title-container s-tb-c">
-                        <h2 class="title1" style="font-size: 23px;"><span style="font-size: 40px;">Bollywood Movie Tickets
-                            </span> <br>For Bookings Call / Whatsapp - +(852) 6142 8189
-                        </h2>
-                        <a href="http://maharajatickets.com/" target="_blank" class="btn-shop-now-fill-slider">Contact Us</a>
+                <!-- SLIDE  -->
+                <li data-transition="random" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" > 
+                    <!-- MAIN IMAGE --> 
+                    <img src="<?php echo base_url(); ?>assets/theme/images/slider-bg-1-2.jpg"  alt="slider"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"> 
+                    <!-- LAYERS --> 
+
+                    <!-- LAYER NR. 1 -->
+                    <div class="tp-caption sfr tp-resizeme"
+                         data-x="center" data-hoffset="0" 
+                         data-y="center" data-voffset="-90" 
+                         data-speed="500" 
+                         data-start="800" 
+                         data-easing="Power3.easeInOut" 
+                         data-splitin="chars" 
+                         data-splitout="none" 
+                         data-elementdelay="0.05" 
+                         data-endelementdelay="0.05" 
+                         data-endspeed="100" 
+                         style="z-index: 5; font-weight:bold; font-size:56px; color:#fff;">Creative & Multi Concept </div>
+
+                    <!-- LAYER NR. 2 -->
+                    <div class="tp-caption sfr tp-resizeme " 
+                         data-x="center" data-hoffset="0" 
+                         data-y="center" data-voffset="-30" 
+                         data-speed="500" 
+                         data-start="1200" 
+                         data-easing="Power3.easeInOut" 
+                         data-splitin="chars" 
+                         data-splitout="none" 
+                         data-elementdelay="0.05" 
+                         data-endelementdelay="0.05" 
+                         data-endspeed="100" 
+                         style="z-index: 6; font-weight:bold; max-width: auto; font-size:36px; color:#fff;">BPM solutions for your industry </div>
+
+                    <!-- LAYER NR. 3 -->
+                    <div class="tp-caption font-crimson font-italic sfb tp-resizeme" 
+                         data-x="center" data-hoffset="0" 
+                         data-y="center" data-voffset="20" 
+                         data-speed="500" 
+                         data-start="1600" 
+                         data-easing="Power3.easeInOut" 
+                         data-splitin="none" 
+                         data-splitout="none" 
+                         data-elementdelay="0.1" 
+                         data-endelementdelay="0.1" 
+                         data-endspeed="300" 
+                         style="z-index: 7; font-size:16px; color:#fff; max-width: auto; max-height: auto; white-space: nowrap;">  Increase business and IT agility by continuously improving core business processes	 </div>
+
+                    <!-- LAYER NR. 3 -->
+                    <div class="tp-caption sfb tp-resizeme" 
+                         data-x="center" data-hoffset="0" 
+                         data-y="center" data-voffset="100" 
+                         data-speed="500" 
+                         data-start="2000" 
+                         data-easing="Power3.easeInOut" 
+                         data-splitin="none" 
+                         data-splitout="none" 
+                         data-elementdelay="0.1" 
+                         data-endelementdelay="0.1" 
+                         data-endspeed="300" 
+                         style="z-index: 7; font-size:16px; color:#000; max-width: auto; max-height: auto; white-space: nowrap;">
+                        <!--<a href="#." class="btn btn-inverse">PURCHASE NOW</a>-->
                     </div>
-                </div>
-            </div>
+                </li>
 
+                <!-- SLIDE  -->
+                <li data-transition="random" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off"> 
+                    <!-- MAIN IMAGE --> 
+                    <img src="<?php echo base_url(); ?>assets/theme/images/slider-bg-1-3.jpg"  alt="slider"  data-bgposition="center bottom" data-bgfit="cover" data-bgrepeat="no-repeat"> 
+                    <!-- LAYERS --> 
 
-            <div id="slider-direction-3" class="t-cn slider-direction">
-                <div class="slider-content t-lfr s-tb slider-3">
-                    <div class="title-container s-tb-c">`
-                        <h2 class="title1" style="font-size: 23px;">
-                            <span style="font-size: 40px;">
-                            </span> 
-                        </h2>
+                    <!-- LAYER NR. 1 -->
+                    <div class="tp-caption sfr tp-resizeme"
+                         data-x="center" data-hoffset="0" 
+                         data-y="center" data-voffset="-90" 
+                         data-speed="500" 
+                         data-start="800" 
+                         data-easing="Power3.easeInOut" 
+                         data-splitin="chars" 
+                         data-splitout="none" 
+                         data-elementdelay="0.05" 
+                         data-endelementdelay="0.05" 
+                         data-endspeed="100" 
+                         style="z-index: 5; font-weight:bold; font-size:36px; color:#000;">Strategy - Implementation - Managed Services </div>
+
+                    <!-- LAYER NR. 2 -->
+                    <div class="tp-caption sfr tp-resizeme" 
+                         data-x="center" data-hoffset="0" 
+                         data-y="center" data-voffset="-30" 
+                         data-speed="500" 
+                         data-start="1200" 
+                         data-easing="Power3.easeInOut" 
+                         data-splitin="chars" 
+                         data-splitout="none" 
+                         data-elementdelay="0.05" 
+                         data-endelementdelay="0.05" 
+                         data-endspeed="100" 
+                         style="z-index: 6; font-weight:bold; max-width: auto; font-size:20px; color:#000;">Specialists in implementation, integration and support for IT. </div>
+
+                    <!-- LAYER NR. 3 -->
+                    <div class="tp-caption font-crimson  sfb tp-resizeme" 
+                         data-x="center" data-hoffset="0" 
+                         data-y="center" data-voffset="20" 
+                         data-speed="500" 
+                         data-start="1600" 
+                         data-easing="Power3.easeInOut" 
+                         data-splitin="none" 
+                         data-splitout="none" 
+                         data-elementdelay="0.1" 
+                         data-endelementdelay="0.1" 
+                         data-endspeed="300" 
+                         style="z-index: 7; font-size:16px; color:#000; max-width: auto; max-height: auto; white-space: nowrap;">Well Layered and ready to use </div>
+
+                    <!-- LAYER NR. 3 -->
+                    <div class="tp-caption sfb tp-resizeme" 
+                         data-x="center" data-hoffset="0" 
+                         data-y="center" data-voffset="100" 
+                         data-speed="500" 
+                         data-start="2000" 
+                         data-easing="Power3.easeInOut" 
+                         data-splitin="none" 
+                         data-splitout="none" 
+                         data-elementdelay="0.1" 
+                         data-endelementdelay="0.1" 
+                         data-endspeed="300" 
+                         style="z-index: 7; font-size:16px; color:#000; max-width: auto; max-height: auto; white-space: nowrap;">
+                        <!--<a href="#." class="btn">CONATCT NOW</a>-->
                     </div>
-                </div>
-            </div>
-
-            <div id="slider-direction-4" class="t-cn slider-direction">
-                <div class="slider-content t-lfr s-tb slider-3">
-                    <div class="title-container s-tb-c">
-                        <h2 class="title1" style="font-size: 23px;">
-                            <span style="font-size: 40px;">
-                            </span> 
-                        </h2>
-                    </div>
-                </div>
-            </div>
-
-            <div id="slider-direction-5" class="t-cn slider-direction">
-                <div class="slider-content t-lfr s-tb slider-3">
-                    <div class="title-container s-tb-c">
-                        <h2 class="title1" style="font-size: 22px"> Top quality pulses and food grains, dairy products
-                            <br/><span style="font-size: 20px">Fresh Fruits and Vegetables</span>                         </h2>
-                        <a href="<?php echo site_url('Product/productList/1/19');?>" class="btn-shop-now-fill-slider">Shop Now</a>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-    </div>
-    <!-- Slider Area End Here -->
-
-
-
-    <div class="product2-area">
-        <div class="container-fluid" >
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="section-title">
-                        <span class="title-bar-left"></span>
-                        <h2>Blockbuster Offers</h2>
-                        <span class="title-bar-right"></span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row featuredContainer">
-                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6 homeproductblock {{globleCartData.products[product.id] ? 'activeproduct': '' }} " ng-repeat="product in homeInit.offers" >
-
-                    <div class="product-box1" >
-
-                        <div class="product-img-holder" style="background: url(<?php echo PRODUCTIMAGELINK; ?>{{product.file_name}});      background-size: cover;
-                             background-position: center;">
-
-                        </div>
-
-                        <div class="product-content-holder">
-                            <h3>
-                                <a href="#">{{product.title}}  <br>
-                                    <span style="font-size: 12px">{{product.short_description}} </span>
-                                </a>
-                                <span ><span  style="font-size: 12px;">{{product.regular_price|currency:"<?php echo globle_currency; ?> "}}</span>{{product.price|currency:"<?php echo globle_currency; ?> "}}</span>
-
-                            </h3>
-
-                            <div class="productbuttonscontainer">
-
-                                <button ng-click="addToCart(product.id, 1)" class="productbutton" style="    background: #d92229;
-                                        color: white;
-                                        border-color: #d92229;">Add To Cart</button>
-                                <button ng-click="addToBuy(product.id, 1)" type="button" class="productbutton">Buy Now</button>
-
-                            </div>  
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <img src="<?php echo base_url(); ?>assets/movies/moviebanner.jpg" alt="offer" style="width:100%">
-
-    <div class="offer-area1 hidden-after-desk movieblockhome">
-
-        <div class="" style="padding: 0px 50px;">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="brand-area-box-l" style="padding-top: 24px;">
-                        <span>Movie Ticket Price From </span>
-                        <h1>HK$ 180 Only</h1>
-                        <p>Choose your Ticket Price<br/> $220 (J-O) - $200 (E-I) - $180 (C-D)</p>
-                        <a href="http://maharajatickets.com/" target="_blank" class="btn-shop-now-fill">Book Now</a>
-                    </div>
-                </div>
-                <div id="countdown2">
-<!--                    <div class="countdown-section"><h3>7th</h3> <p>FAB</p> </div>
-                    <div class="countdown-section"><h3>8th</h3> <p>FAB</p> </div>
-                    <div class="countdown-section"><h3>9th</h3> <p>FAB</p> </div>-->
-
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="brand-area-box-r">
-                        <a href="#"><img src="<?php echo base_url(); ?>assets/movies/movieposter1.jpg" alt="offer"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container block52">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 " style="    margin-top: 24px;">
-            <div class="banner-top-left col-lg-4 col-md-4 col-sm-4 col-xs-12"><a href="http://v1.maharajamart.com/contact/"><img class="img-responsive" src="http://v1.maharajamart.com/pub/media/wysiwyg/new_images/mosaic_banner/become-vendor-1.jpg" alt=""></a></div>
-            <div class="banner-top-center col-lg-4 col-md-4 col-sm-4 col-xs-12"><a href="http://v1.maharajamart.com/delivery-around-hong-kong.html"><img class="img-responsive" src="http://v1.maharajamart.com/pub/media/wysiwyg/new_images/mosaic_banner/hk-delivery-1.jpg" alt=""></a></div>
-            <div class="banner-top-right col-lg-4 col-md-4 col-sm-4 col-xs-12"><a href="http://v1.maharajamart.com/movie-ticket.html"><img class="img-responsive" src="http://v1.maharajamart.com/pub/media/wysiwyg/new_images/mosaic_banner/favourite-banner-1.jpg" alt=""></a></div>
-        </div>
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"  style="    margin-top: 24px;">
-            <div class="banner-bottom-left col-lg-8 col-md-8 col-sm-8 col-xs-12"><img class="img-responsive" src="http://v1.maharajamart.com/pub/media/wysiwyg/new_images/mosaic_banner/boutique-collection-1.jpg" alt=""></div>
-            <div class="banner-bottom-right col-lg-4 col-md-4 col-sm-4 col-xs-12"><a href="http://v1.maharajamart.com/posts/category/csr/"><img class="img-responsive" src="http://v1.maharajamart.com/pub/media/wysiwyg/new_images/mosaic_banner/cares-shares-1.jpg" alt=""></a></div>
-        </div>
-    </div>
-
-    <video autoplay loop muted poster="screenshot.jpg" id="background">
-        <source src="<?php echo base_url(); ?>assets/sliders/maharajamart.mp4" type="video/mp4">
-    </video>
-
-
-    <div style="clear: both"></div>
-    <div class="brand-area" >
-        <div class="container">
-            <div class="section-title">
-                <span class="title-bar-left"></span>
-                <h2>our Best Brands</h2>
-                <span class="title-bar-right"></span>
-            </div>
-            <div class="metro-carousel" data-loop="true" data-items="6" data-margin="30" data-autoplay="true" data-autoplay-timeout="10000" data-smart-speed="2000" data-dots="false" data-nav="true" data-nav-speed="false" data-r-x-small="2" data-r-x-small-nav="true" data-r-x-small-dots="false" data-r-x-medium="3" data-r-x-medium-nav="true" data-r-x-medium-dots="false" data-r-small="4" data-r-small-nav="true" data-r-small-dots="false" data-r-medium="5" data-r-medium-nav="true" data-r-medium-dots="false" data-r-large="6" data-r-large-nav="true" data-r-large-dots="false">
-                <?php
-                $brandarray = ['Marico.png', 'Gowardhan.png', 'KhadiNatural.png', 'NaturePearls.png', 'RealFruitPower.png',
-                    'Patanjali.png', 'Bikaji.png', 'PSO.png'
-                ];
-                foreach ($brandarray as $key => $value) {
-                    ?>
-                    <div class="brand-area-box">
-                        <a href="#"><img src="<?php echo base_url(); ?>assets/brand/<?php echo $value; ?>" alt="brand"></a>
-                    </div>
-                    <?php
-                }
-                ?>
-
-            </div>
+                </li>
+            </ul>
         </div>
     </div>
-    <!-- Brand Area End Here -->
+</section>
+
+<!-- Content -->
+<div id="content"> 
+
+    <!-- About Sec -->
+    <section class="about-ser pad-t-b-130">
+        <div class="container"> 
+
+            <!-- Heading -->
+            <div class="heading-block margin-bottom-20">
+                <h4>- Costco International integration with Costco International Connections - </h4>
+                <h2>MULTI SOLUTION COMPANY</h2>
+            </div>
+            <div class="intro-small col-md-10 center-auto">
+                <p>Utilizes social and collaborative tools to help create high-value content managed and stored in Costco International&#8217;s repositories such as FileNet Content Manager or Content Manager Enterprise Edition</p>
+            </div>
+            <div class="row"> 
+
+                <!-- Our Mission -->
+                <div class="col-sm-4">
+                    <article> <i class="flaticon-light-bulb animate fadeInLeft" data-wow-delay="0.4s"></i>
+                        <h3>Our Creativity</h3>
+                        <p>We provides a broad, deep spectrum of technology services to help organizations translate their strategic business agendas into IT initiatives and solutions that measurably improve performance.		</p>
+                    </article>
+                </div>
+
+                <!-- Our Mission -->
+                <div class="col-sm-4">
+                    <article> <i class="flaticon-targeting animate fadeInLeft" data-wow-delay="0.4s"></i>
+                        <h3>Our Passion</h3>
+                        <p> The greatest strength of a company profile preparation is that it makes an emotional as well as a logical connection with our customers by communicating with them in a way that leads them to value and trust our brand.</p>
+
+                    </article>
+                </div>
+
+                <!-- Our Mission -->
+                <div class="col-sm-4">
+                    <article> <i class="flaticon-layers-1 animate fadeInLeft" data-wow-delay="0.4s"></i>
+                        <h3>Our Expertise</h3>
+                        <p>Costco International means “Long Term Immortal Relationships”. It also defines a mathematical equation for algebraic parenthesis which denotes the technical excellence and the domain strength of our team.</p></article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Left Background -->
+    <div class="main-page-section half_left_layout">
+        <div class="main-half-layout half_left_layout studio-bg"></div>
+
+        <!-- Right Content -->
+        <div class="main-half-layout-container half_left_layout">
+            <div class="about-us-con">
+                <div class="heading">
+                    <h3 class="v-hr">We are Creative</h3>
+                </div>
+                <p>Costco International means “Long Term Immortal Relationships”. It also defines a mathematical equation for algebraic parenthesis which denotes the technical excellence and the domain strength of our team.<br>
+                    The greatest strength of a company profile preparation is that it makes an emotional as well as a logical connection with our customers by communicating with them in a way that leads them to value and trust our brand. The result: loyal customers, great enhancement of each customer’s lifetime value and our long-term profitable core relationship.<br>
+                    With a strong focus on Retail, Consumer Goods and Logistics industries, we are creating strategic long term relationships with our customers, making a difference to them through our offices in over 15 countries across US, Europe and Asia.</p>
+
+                <div class="skills padding-top-30"> 
 
 
-    <div class="container">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <div class="banner-bottom-left col-lg-8 col-md-8 col-sm-8 col-xs-12"><a href="http://v1.maharajamart.com/deal-of-the-week.html"><img src="http://v1.maharajamart.com/pub/media/wysiwyg/WhatsApp_Image_2018-10-15_at_11.30.10_PM.jpeg" alt=""></a></div>
-            <div class="banner-bottom-right col-lg-4 col-md-4 col-sm-4 col-xs-12"><a href="http://v1.maharajamart.com/deal-of-the-day.html"><img class="img-responsive" src="http://v1.maharajamart.com/pub/media/wysiwyg/WhatsApp_Image_2018-10-15_at_11.30.11_PM.jpeg" alt=""></a></div>
+                </div>
+            </div>
         </div>
     </div>
+
+    <!-- Counter -->
+    <div class="counters nolist-style">
+        <ul class="row">
+
+        </ul>
+    </div>
+
+    <!-- OUR SERVICES -->
+    <section class="our-main-ser pad-t-b-130 padding-bottom-90">
+        <div class="container"> 
+
+            <!-- Heading -->
+            <div class="heading-block margin-bottom-20">
+                <h4>- Our Best Solution - </h4>
+                <h2>WHAT WE OFFER</h2>
+            </div>
+            <div class="intro-small col-md-8 center-auto">
+                <p>Costco International has successfully managed and implemented a wide variety of projects</p>
+            </div>
+
+            <!-- OUR SERVICES LIST -->
+            <div class="nolist-style">
+                <ul class="row">
+
+
+                    <!-- Ultra Responsive -->
+                    <li class="col-sm-4"> <i class="flaticon-cogwheel-1 animate fadeInUp" data-wow-delay="0.4s"></i>
+                        <h6>Software Develpment</h6>
+                        <p>We believe a combination of onsite, near shore and offshore development models provides a framework to drive continuous software improvement to our customers.</p>
+                    </li>
+
+                    <!-- Discuss Idea -->
+                    <li class="col-sm-4"> <i class="flaticon-android animate fadeInUp" data-wow-delay="0.6s"></i>
+                        <h6>Mobile Applications</h6>
+                        <p>We allow you to define your boundaries much wider in your industrial domain while help in approaching your business problems with a rather futuristic approach.</p>
+                    </li>  
+
+
+                    <!-- Unlimited Features -->
+                    <li class="col-sm-4"> <i class="flaticon-connection animate fadeInUp" data-wow-delay="0.6s"></i>
+                        <h6>Marketing</h6>
+                        <p>We analyse your current brand positioning to create more tailor-made brand strategy that brings in desired results. Providing you best services as per your budget constraint.</p>
+                    </li>
+
+
+
+                    <!-- OUR SERVICES LIST -->
+                    <li class="col-sm-4"> <i class="icon-tools animate fadeInUp" data-wow-delay="0.4s"></i>
+                        <h6>Branding</h6>
+                        <p>Digital marketing solution is a must have service for a business to grow up well.</p>
+                    </li>
+
+
+                    <!-- Discuss Idea -->
+                    <li class="col-sm-4"> <i class="flaticon-business animate fadeInUp" data-wow-delay="0.6s"></i>
+                        <h6>Account, Audit & Tax</h6> 
+                        <p>We offer one-stop Accounting, Auditing and Assurance, Business and Taxation Advisory services for our clients.</p>
+                    </li>
+
+                    <!-- Discuss Idea -->
+                    <li class="col-sm-4"> <i class="flaticon-search animate fadeInUp" data-wow-delay="0.6s"></i>
+                        <h6>Integrated communications services</h6>
+                        <p>Advances in communications and networking capabilities today offer organizations almost unlimited opportunities to create business advantage by conducting business anywhere, anytime, using multiple types of devices and communications.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+  <section class="portfolio port-wrap pad-t-b-130">
+      <div class="container"> 
+        
+        <!-- Heading -->
+        <div class="heading-block margin-bottom-30">
+          <h3>Try Our 3D Customization</h3>
+          <hr>
+        </div>
+        <div class="intro-small col-md-8 center-auto">
+          <p>Design your Custom Tailored Suit online and choose among all kinds of suit styles and fabrics.</p>
+        </div>
+        
+  <div class="pricing">
+          <div class="row"> 
+            
+            <!-- Basic -->
+            <div class="col-md-12">
+              <article class="animate fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">
+              <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/costcokart.jpg"> 
+              </article>
+            </div>
+          
+          </div>
+        </div>
+     
+        
+        <!-- LOAD MORE -->
+        <div class="text-center margin-top-50 animate fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;"> <a href="portfolio_1-4-col.html" class="btn btn-inverse">TRY NOW</a> </div>
+      </div>
+    </section>
+
+
+    <!-- Clients -->
+    <section class="testimonial" data-stellar-background-ratio="0.5">
+        <div class="container"> 
+
+            <!-- Heading -->
+            <div class="heading-block white">
+                <h3>What Our Customers Say</h3>
+                <hr>
+            </div>
+
+            <!-- Slider -->
+            <div class="slider-sec">
+                <div id="testi-slide"> 
+
+                    <!-- Slide -->
+                    <div class="item">
+                        <div class="tesi-text">
+                            <div class="avatar"> <img src="images/comments-avatar-2.jpg" alt="" > </div>
+                            <p>The design is great, the code is easy to modify. 
+                                As a developer it was easy for me to understand and modify the code - it was organised, well documented, and used correct conventions.
+
+                                It was delightful to see such a professional job. </p>
+                            <h6>- OliverKraus -</h6>
+                            <span>Themeforest</span> </div>
+                    </div>
+                    <div class="item">
+                        <div class="tesi-text">
+                            <div class="avatar"> <img src="images/comments-avatar-2.jpg" alt="" > </div>
+                            <p>Superb customer support! I have purchased a few themes and M_Adnan is very fast and polite. Great template, author is very helpful, best customer support ever! Very nice looking theme and easy to customise once you get hang of page builder.
+
+                                Highly recommend! </p>
+                            <h6>- Websonic75 -</h6>
+                            <span>ThemeForest</span> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
 
 </div>
+<!-- End Content --> 
+
 <?php
 $this->load->view('layout/footer');
 ?>
