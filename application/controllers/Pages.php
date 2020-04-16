@@ -178,7 +178,7 @@ fluids and splashes.",
             "ir-thermometer" => array(
                 "title" => "Non Contact Forehead IR Thermometer",
                 "material" => "Plastic",
-                "item_code" => "COSTCO-SFGG-1",
+                "item_code" => "COSTCO-IRTH-1",
                 "certification" => "ISO / FDA 501K ",
                 "points" => [
                     "Ideal for quickly detecting elevated body temperature.",
@@ -188,7 +188,22 @@ fluids and splashes.",
                 ],
                 "images" => [
                     "covid19/THERMOMETERS/THERMOMETERS.jpg",
-          
+                ]
+            ),
+            "face-shield" => array(
+                "title" => "Transparent Protective Face Shield",
+                "material" => "PET",
+                "item_code" => "COSTCO-FCSH-1",
+                "certification" => "ISO",
+                "points" => [
+                    "This protective shield has an adjustable headband and a convenient flip up visor.",
+                    "Highly transparent shield, double-sided anti-fog.Protective film on both sides to prevent fogging on both sides.",
+                    "Can prevent oil fume and saliva from splashing.",
+                    "Use when going out to prevent saliva splashing.",
+                    "Transparent lens, can clearly see things outside the lens."
+                ],
+                "images" => [
+                    "covid19/faceshield/face_shield1.JPG",
                 ]
             ),
         );

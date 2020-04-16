@@ -118,18 +118,18 @@
                                                     <div class="col-sm-3">
                                                         <h6>MASKS</h6>
                                                         <ul>
-                                                            <li><a href="<?php echo site_url('mask/n95');?>">N95 MEDICAL MASK</a></li>
-                                                            <li><a href="<?php echo site_url('mask/kn95');?>">KN95 MASK</a></li>
-                                                            <li><a href="<?php echo site_url('mask/3ply-medical-mask');?>">3PLY MEDICAL MASK DISPOSABLE</a></li>
-                                                            <li><a href="<?php echo site_url('mask/3ply-civil-mask');?>">3PLY CIVIL MASK DISPOSABLE</a></li>
+                                                            <li><a href="<?php echo site_url('mask/n95'); ?>">N95 MEDICAL MASK</a></li>
+                                                            <li><a href="<?php echo site_url('mask/kn95'); ?>">KN95 MASK</a></li>
+                                                            <li><a href="<?php echo site_url('mask/3ply-medical-mask'); ?>">3PLY MEDICAL MASK DISPOSABLE</a></li>
+                                                            <li><a href="<?php echo site_url('mask/3ply-civil-mask'); ?>">3PLY CIVIL MASK DISPOSABLE</a></li>
                                                         </ul>
                                                     </div>
                                                     <div class="col-sm-3">
                                                         <h6>Protection Kits</h6>
                                                         <ul>
-                                                            <li><a href="<?php echo site_url("protection/ppe-suit");?>">PPE SUITS FOR HOSPITALS</a></li>
+                                                            <li><a href="<?php echo site_url("protection/ppe-suit"); ?>">PPE SUITS FOR HOSPITALS</a></li>
                                                             <li><a href="<?php echo site_url("protection/safety-goggles"); ?>">SAFETY GOGGLES</a></li>
-                                                            <li><a href="<?php echo site_url("protection/protect-cloth");?>">PROTECTIVE CLOTHING</a></li>
+                                                            <li><a href="<?php echo site_url("protection/protect-cloth"); ?>">PROTECTIVE CLOTHING</a></li>
                                                             <li><a href="<?php echo site_url("protection/latex-gloves"); ?>">LATEX GLOVES</a></li>
 
                                                         </ul>
@@ -138,7 +138,8 @@
                                                         <h6>OTHER Kits</h6>
                                                         <ul>
                                                             <li><a href="<?php echo site_url("protection/ir-thermometer"); ?>">INFRARED THERMOMETERS</a></li>
-                                                            <li><a href="">HAND SANITIZER</a></li>
+                                                            <li><a href="<?php echo site_url("protection/hand-sanitizer"); ?>">HAND SANITIZER</a></li>
+                                                            <li><a href="<?php echo site_url("protection/face-shield"); ?>">PROTECTIVE FACE SHIELDS</a></li>
 
                                                         </ul>
                                                     </div>
