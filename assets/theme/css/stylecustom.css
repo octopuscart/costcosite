@@ -21,3 +21,8 @@ header .navbar li a {
     padding-top: 50px !important;
     padding-bottom: 130px !important;
 }
+.images-slider {
+    position: relative;
+     background: #E0E0E0; 
+    z-index: 1;
+}

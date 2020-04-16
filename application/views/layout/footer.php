@@ -19,7 +19,9 @@
                   <a href="mailto:sales@costcointernational.com">sales@costcointernational.com</a> <a href="mailto:info@costcointernational.com">info@costcointernational.com</a> </li>
                 <li class="col-sm-4"> <i class="flaticon-smartphone"></i>
                   <h6>Business Phone</h6>
-                  <a href="tel:+(852) 6878 4014">+(852) 6878 4014</a> <a href="+(852) 5129 8473">+(852) 5129 8473</a> </li>
+                  <a href="tel:+(852) 6878 4014">+(852) 6878 4014</a> 
+            
+                </li>
               </ul>
             </div>
           </div>

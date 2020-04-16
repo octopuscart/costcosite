@@ -20,7 +20,7 @@ $this->load->view('layout/header');
 <div id="content"> 
 
     <!-- About Sec -->
-    <section class="about-ser pad-t-b-130">
+    <section class="about-ser pad-t-b-130" style='padding-bottom: 10px;'>
         <div class="container"> 
 
             <!-- Heading -->
@@ -36,12 +36,7 @@ $this->load->view('layout/header');
                     <p>Costco International is an independent consulting and software development company that specializes in the systems analysis, design and implementation of technical software. Costco International has been established to service the needs of clients who need complex analytical expertise or software developed that requires detailed technical expertise, typically for optimization, scheduling and the analysis and visualization of data applications.<br>
                         </p>
                 </div><!-- .entry-content -->            </div>
-            <div class="row"> 
-
-             
-
-                
-            </div>
+          
         </div>
     </section>
 

@@ -113,15 +113,15 @@
                                             <div class="mega-inside">
                                                 <div class="row">
                                                     <div class="col-sm-3">
-                                                        <img src="<?php echo base_url(); ?>assets/images/covid19/mask.jpeg">
+                                                        <img src="<?php echo base_url(); ?>assets/images/covid19/mask.jpeg" style='    margin-top: 40px;'>
                                                     </div>
                                                     <div class="col-sm-3">
                                                         <h6>MASKS</h6>
                                                         <ul>
-                                                            <li><a href="">N95 MEDICAL MASK</a></li>
-                                                            <li><a href="">KN95 MASK</a></li>
-                                                            <li><a href="">3PLY MEDICAL MASK DISPOSABLE</a></li>
-                                                            <li><a href="">3PLY CIVIL MASK DISPOSABLE</a></li>
+                                                            <li><a href="<?php echo site_url('mask/n95');?>">N95 MEDICAL MASK</a></li>
+                                                            <li><a href="<?php echo site_url('mask/kn95');?>">KN95 MASK</a></li>
+                                                            <li><a href="<?php echo site_url('mask/3ply-medical-mask');?>">3PLY MEDICAL MASK DISPOSABLE</a></li>
+                                                            <li><a href="<?php echo site_url('mask/3ply-civil-mask');?>">3PLY CIVIL MASK DISPOSABLE</a></li>
                                                         </ul>
                                                     </div>
                                                     <div class="col-sm-3">

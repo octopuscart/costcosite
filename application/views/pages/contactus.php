@@ -35,8 +35,10 @@ $this->load->view('layout/header');
                                             Yau Ma Tei,
                                             Kowloon, Hong Kong
                         </li>
-                        <li><i class="flaticon-smartphone"></i> <a href="tel:+(852) 6878 4014">+(852) 6878 4014</a> <br>
-                            <a href="+(852) 5129 8473">+(852) 5129 8473</a></li>
+<!--                        <li><i class="flaticon-smartphone"></i> <a href="tel:+(852) 6878 4014">+(852) 6878 4014</a> <br>
+                            <a href="+(852) 5129 8473">+(852) 5129 8473</a></li>-->
+                        
+                        
                         <li><i class="flaticon-mail"></i> <a href="mailto:sales@costcointernational.com">sales@costcointernational.com</a> <br>
                             <a href="mailto:info@costcointernational.com">info@costcointernational.com</a></li>
                     </ul>
