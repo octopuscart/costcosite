@@ -10,7 +10,7 @@ $this->load->view('layout/header');
             <!-- Breadcrumb -->
             <ol class="breadcrumb">
                 <li><a href="#">Home</a></li>
-                <li class="active"><?php echo $product['title']; ?><</li>
+                <li class="active"><?php echo $product['title']; ?></li>
             </ol>
         </div>
     </div>

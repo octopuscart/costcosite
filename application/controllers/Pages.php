@@ -145,7 +145,7 @@ fluids and splashes.",
                     "covid19/protectcloth/pcloth1.jpg",
                 ]
             ),
-            "latex-gloves"=>array(
+            "latex-gloves" => array(
                 "title" => "Disposable Latex Gloves",
                 "material" => "Smooth Lining Latex",
                 "item_code" => "COSTCO-LGVS-1",
@@ -161,7 +161,7 @@ fluids and splashes.",
                     "covid19/gloves/glov2.JPG",
                 ]
             ),
-            "safety-goggles"=>array(
+            "safety-goggles" => array(
                 "title" => "Safety Goggles",
                 "material" => "PVC",
                 "item_code" => "COSTCO-SFGG-1",
@@ -169,11 +169,26 @@ fluids and splashes.",
                 "points" => [
                     "Anti-Impact Anti Chemical Splash Safety Goggles.",
                     "Economy Clear Lens Eye Protection Dust Laboratory Glasses Transparent.",
-                    
                 ],
                 "images" => [
                     "covid19/goggles/goggles1.jpg",
                     "covid19/goggles/goggles2.jpg",
+                ]
+            ),
+            "ir-thermometer" => array(
+                "title" => "Non Contact Forehead IR Thermometer",
+                "material" => "Plastic",
+                "item_code" => "COSTCO-SFGG-1",
+                "certification" => "ISO / FDA 501K ",
+                "points" => [
+                    "Ideal for quickly detecting elevated body temperature.",
+                    "Designed to scan and monitor individuals for elevated temperature.",
+                    "Measures body temperature between 89.6 and 108.5°F (32.0 to 42.5°C) without contact.",
+                    'The optimum measurement distance is 1.9" to 5.9" (5 to 15cm). An adjustable alarm alerts the user both visually and audibly when the temperature exceeds a programmed limit.'
+                ],
+                "images" => [
+                    "covid19/THERMOMETERS/THERMOMETERS.jpg",
+          
                 ]
             ),
         );

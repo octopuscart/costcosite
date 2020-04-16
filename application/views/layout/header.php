@@ -137,7 +137,7 @@
                                                     <div class="col-sm-3">
                                                         <h6>OTHER Kits</h6>
                                                         <ul>
-                                                            <li><a href="">INFRARED THERMOMETERS</a></li>
+                                                            <li><a href="<?php echo site_url("protection/ir-thermometer"); ?>">INFRARED THERMOMETERS</a></li>
                                                             <li><a href="">HAND SANITIZER</a></li>
 
                                                         </ul>
