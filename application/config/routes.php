@@ -56,5 +56,6 @@ $route['contact-us'] = 'Shop/contactus';
 $route['about-us'] = 'Shop/aboutus';
 $route['privacy-policy'] = 'Shop/privacy_policy';
 $route['mask/(:any)'] = 'Pages/mask/$1';
+$route['protection/(:any)'] = 'Pages/protection/$1';
 
 $route['translate_uri_dashes'] = FALSE;

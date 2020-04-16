@@ -127,9 +127,9 @@
                                                     <div class="col-sm-3">
                                                         <h6>Protection Kits</h6>
                                                         <ul>
-                                                            <li><a href="">PPE SUITS FOR HOSPITALS</a></li>
+                                                            <li><a href="<?php echo site_url("protection/ppe-suit");?>">PPE SUITS FOR HOSPITALS</a></li>
                                                             <li><a href="">SAFETY GOGGLES</a></li>
-                                                            <li><a href="">PROTECTIVE CLOTHING</a></li>
+                                                            <li><a href="<?php echo site_url("protection/protect-cloth");?>">PROTECTIVE CLOTHING</a></li>
                                                             <li><a href="">LATEX GLOVES</a></li>
 
                                                         </ul>

@@ -17,7 +17,7 @@ class Pages extends CI_Controller {
                 "title" => "N95 Medical Mask",
                 "layer" => "Four-layer filtration",
                 "item_code" => "COSTCO-N95-1",
-                "protection"=>"Dust / Haze / Germs / Flu",
+                "protection" => "Dust / Haze / Germs / Flu",
                 "points" => [
                     "NOISH Certified N95 disposable face mask for adults - General adjustment",
                     "Can prevent patients from spraying droplets, reducing droplet volume and spraying speed.",
@@ -30,13 +30,15 @@ class Pages extends CI_Controller {
                 "images" => [
                     "covid19/n95/n95_f.JPG",
                     "covid19/n95/n95_s.JPG",
-                    "covid19/n95/n95_b.JPG"]
+                    "covid19/n95/n95_b.JPG",
+                    "covid19/maskguide.jpg",
+                ]
             ),
             "kn95" => array(
                 "title" => "KN95 Medical Mask",
                 "layer" => "Four-layer filtration",
                 "item_code" => "COSTCO-KN95-1",
-                "protection"=>"Dust / Haze / Germs / Flu",
+                "protection" => "Dust / Haze / Germs / Flu",
                 "points" => [
                     "Four-layer protection: The outer layer and mouth layer are non-woven;The middle two layers are hot air cotton and melt-blown cloth.",
                     "Can prevent patients from spraying droplets, reducing droplet volume and spraying speed.",
@@ -49,14 +51,15 @@ class Pages extends CI_Controller {
                 "images" => [
                     "covid19/kn95/kn95_f.jpg",
                     "covid19/kn95/kn95_s.jpg",
-                    "covid19/n95/n95_b.JPG"
+                    "covid19/n95/n95_b.JPG",
+                    "covid19/maskguide.jpg",
                 ]
             ),
             "3ply-medical-mask" => array(
                 "title" => "3 Ply Disposable Medical Mask",
                 "layer" => "Three-layer filtration",
                 "item_code" => "COSTCO-3PLY-1",
-                "protection"=>"Dust / smog / germs / flu",
+                "protection" => "Dust / smog / germs / flu",
                 "points" => [
                     "This product consists of a mask body, a nose clip, and earband，the inner and outer layers of the mask are made
 of non-woven material，intermediate layer is polypropylene meltblown cloth，nose clip made of plastic
@@ -72,14 +75,15 @@ fluids and splashes.",
                 "images" => [
                     "covid19/3plymask/3ply_f.jpg",
                     "covid19/3plymask/masklayer.jpg",
-                    "covid19/3plymask/3ply_s.jpg"
+                    "covid19/3plymask/3ply_s.jpg",
+                    "covid19/maskguide.jpg",
                 ]
             ),
             "3ply-civil-mask" => array(
                 "title" => "3 Ply Disposable Civil Mask",
                 "layer" => "Three-layer filtration",
                 "item_code" => "COSTCO-3PLY-2",
-                "protection"=>"Dust / smog / germs / flu",
+                "protection" => "Dust / smog / germs / flu",
                 "points" => [
                     "This product consists of a mask body, a nose clip, and earband，the inner and outer layers of the mask are made
 of non-woven material，intermediate layer is polypropylene meltblown cloth，nose clip made of plastic
@@ -95,7 +99,8 @@ fluids and splashes.",
                 "images" => [
                     "covid19/3plymask/civilmask.jpg",
                     "covid19/3plymask/masklayer.jpg",
-                    "covid19/3plymask/3ply_s.jpg"
+                    "covid19/3plymask/3ply_s.jpg",
+                    "covid19/maskguide.jpg",
                 ]
             ),
         );
@@ -103,6 +108,48 @@ fluids and splashes.",
         $data['allproducts'] = $products;
         $data['product'] = $products[$masktype];
         $this->load->view('pages/mask', $data);
+    }
+
+    function protection($ptype) {
+        $products = array(
+            "ppe-suit" => array(
+                "title" => "PPE Suits For Hospital",
+                "material" => "Composite nonwoven",
+                "item_code" => "COSTCO-PPEH-1",
+                "certification" => "CE & CNAS",
+                "points" => [
+                    "Composite nonwoven (has good permeability and barrier)",
+                    "Jumpsuit structure, consists of a hooded top and trousers.",
+                    "Suitable for clinical staff to provide barrier & protection in the work environment with the patient’s blood, body fluids, secretions.",
+                    "This product is non-sterile; It can be used in hospital, just hospital staff need to do sterilization before using;",
+                    "It can effectively resist the penetration of bacteria, viruses, alcohol, blood, body fluids, air dust particles, can effectively protect wearer from the theat of infection."
+                ],
+                "images" => [
+                    "covid19/ppesuit/suit1.jpg",
+                    "covid19/ppesuit/suit2.jpg",
+                ]
+            ),
+            "protect-cloth" => array(
+                "title" => "Disposable Protective Clothing ",
+                "material" => "PP/PP+PE/SMS/Microporous",
+                "item_code" => "COSTCO-PPC-2",
+                "certification" => "ISO CE FDA",
+                "points" => [
+                    "Disposable coveralls provide the protection of standard coveralls without the hassle of having to decontaminate used suits.",
+                    "Jumpsuit structure, consists of a hooded top and trousers.",
+                    "Suitable for clinical staff to provide barrier & protection in the work environment with the patient’s blood, body fluids, secretions.",
+                    "This suits are breathable for extended wear, yet are also fluid resistant, with an ideal balance of protection, durability and comfort.",
+                    "It can effectively resist the penetration of bacteria, viruses, alcohol, blood, body fluids, air dust particles, can effectively protect wearer from the theat of infection."
+                ],
+                "images" => [
+                    "covid19/protectcloth/pcloth1.jpg",
+                ]
+            ),
+        );
+        $data['unset'] = $ptype;
+        $data['allproducts'] = $products;
+        $data['product'] = $products[$ptype];
+        $this->load->view('pages/protection', $data);
     }
 
     public function catalogue() {
