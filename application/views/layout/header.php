@@ -128,9 +128,9 @@
                                                         <h6>Protection Kits</h6>
                                                         <ul>
                                                             <li><a href="<?php echo site_url("protection/ppe-suit");?>">PPE SUITS FOR HOSPITALS</a></li>
-                                                            <li><a href="">SAFETY GOGGLES</a></li>
+                                                            <li><a href="<?php echo site_url("protection/safety-goggles"); ?>">SAFETY GOGGLES</a></li>
                                                             <li><a href="<?php echo site_url("protection/protect-cloth");?>">PROTECTIVE CLOTHING</a></li>
-                                                            <li><a href="">LATEX GLOVES</a></li>
+                                                            <li><a href="<?php echo site_url("protection/latex-gloves"); ?>">LATEX GLOVES</a></li>
 
                                                         </ul>
                                                     </div>

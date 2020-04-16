@@ -145,6 +145,37 @@ fluids and splashes.",
                     "covid19/protectcloth/pcloth1.jpg",
                 ]
             ),
+            "latex-gloves"=>array(
+                "title" => "Disposable Latex Gloves",
+                "material" => "Smooth Lining Latex",
+                "item_code" => "COSTCO-LGVS-1",
+                "certification" => "ISO / FDA",
+                "points" => [
+                    "The disposable home gloves are made of nitrile rubber material, high quality, non-toxic, aseptic, healthy to use.",
+                    "No plasticizer, no ester, no silicone oil, no powder.",
+                    "Reasonable thickness, good touch feeling, good flexibility, acid and alkali resistant, oil resistant, anti bacteria.",
+                    "Ideal for home household cleaning use, sanitary inspection, food industry, chemical industry etc.",
+                ],
+                "images" => [
+                    "covid19/gloves/glov1.JPG",
+                    "covid19/gloves/glov2.JPG",
+                ]
+            ),
+            "safety-goggles"=>array(
+                "title" => "Safety Goggles",
+                "material" => "PVC",
+                "item_code" => "COSTCO-SFGG-1",
+                "certification" => "ISO",
+                "points" => [
+                    "Anti-Impact Anti Chemical Splash Safety Goggles.",
+                    "Economy Clear Lens Eye Protection Dust Laboratory Glasses Transparent.",
+                    
+                ],
+                "images" => [
+                    "covid19/goggles/goggles1.jpg",
+                    "covid19/goggles/goggles2.jpg",
+                ]
+            ),
         );
         $data['unset'] = $ptype;
         $data['allproducts'] = $products;
