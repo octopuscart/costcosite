@@ -10,12 +10,6 @@
         <?php
         meta_tags();
         ?>
-
-
-        <!-- Favicon -->
-        <link rel="shortcut icon" href="<?php echo base_url(); ?>assets/theme/images/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="<?php echo base_url(); ?>assets/theme/images/favicon.ico" type="image/x-icon">
-
         <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
         <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/theme/rs-plugin/css/settings.css" media="screen" />
 
@@ -108,7 +102,7 @@
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="dropdown megamenu" style="    background: red;"> <a href="" style="color:white;    font-weight: bolder;" class="dropdown-toggle" data-toggle="dropdown">COVID-19 PRODUCTS </a>
+<!--                                    <li class="dropdown megamenu" style="    background: red;"> <a href="" style="color:white;    font-weight: bolder;" class="dropdown-toggle" data-toggle="dropdown">COVID-19 PRODUCTS </a>
                                         <div class="dropdown-menu">
                                             <div class="mega-inside">
                                                 <div class="row">
@@ -146,7 +140,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </li>
+                                    </li>-->
                                     <li> <a href="<?php echo site_url("contact-us"); ?>"  >CONTACT US </a>  </li>
 
                                 </ul>
